@@ -1,5 +1,8 @@
 # Decentralized-aerial-mapping
-(Landscape mapping using distributed drone network)
+
+(Landscape mapping using distributed drone network) -[http://tester3.pythonanywhere.com/home/]
+[http://tester3.pythonanywhere.com/map/]
+
 In today's era drones are using excessively.Their excessive use makes them vulnerable to
 be hacked and used for malicious purposes. There are also security loopholes in this
 technology like the radio waves which can be exploited by the rivals and can cause a
@@ -53,3 +56,13 @@ Below link for viewing map.
 ```
 http://localhost:8000/map
 ```
+
+### PREVIEW
+
+A look of homepage
+
+![alt text](https://github.com/SDISON/Decentralized-aerial-mapping/blob/master/README_images/01.png)
+
+A look to public map
+
+![alt text](https://github.com/SDISON/Decentralized-aerial-mapping/blob/master/README_images/02.png)
