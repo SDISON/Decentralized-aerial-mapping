@@ -1,0 +1,22 @@
+{% load static %}
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Handlee|Josefin+Sans:300,600&amp;display=swap'>
+<link rel="stylesheet" href="{%static 'home/style.css'%}">
+
+<div class="container">
+  <div class="card-wrap">
+    <div class="card border-0 shadow card--welcome is-show" id="welcome">
+      <div class="card-body">
+        <h2 class="card-title">WELCOME</h2>
+        <p>Welcome to the page</p>
+        <div class="btn-wrap"><a class="btn btn-lg btn-register js-btn" data-target="register" href = '{%url 'register:index'%}';">REGISTER</a><a class="btn btn-lg btn-login js-btn" data-target="login" href = '{%url 'upload:index'%}';">SUBMIT_DATA</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="{%static 'home/script.js'%}"></script>
+  <script>ethereum.enable()</script>
+	

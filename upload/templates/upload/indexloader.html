@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" href="{%static 'upload_loader/style.css'%}">
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.2.0/dist/web3.min.js"></script>
+<script>
+var account = "{{account}}";
+var id = parseInt("{{id}}");
+var file = "{{file}}";
+</script>
+<script src="{%static 'upload_loader/script.js'%}"></script>
+
+<main role="main">
+  <!-- An unordered list is completely useless here, -->
+  <!-- but I like to use it for repeating elements.-->
+  <ul role="progressbar" aria-busy="true" aria-label="Loading domino shop">
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+    <li role="presentation"></li>
+  </ul>
+  <i class="remove">Uploading data.</i>
+</main>
+
+

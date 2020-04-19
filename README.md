@@ -1,1 +1,0 @@
-# Decentralized-aerial-mapping
