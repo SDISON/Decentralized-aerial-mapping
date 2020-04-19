@@ -28,6 +28,10 @@ Django and PILLOW are required which are there in requirements so just run that 
 pip install -r requirements.txt
 ```
 
+And the other thing required is METAMASK extension install in your browser and an account on rinkeby network.
+
+Finally, some ether's in your account so get some fake ethers from 'https://faucet.rinkeby.io/'
+
 ### How to run project
 
 A step by step series of examples that tell you how to get a development env running
