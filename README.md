@@ -32,12 +32,24 @@ And the other thing required is METAMASK extension install in your browser and a
 
 Finally, some ether's in your account so get some fake ethers from 'https://faucet.rinkeby.io/'
 
+And if you are changing the contract then update the main.js file from the static folder by your contract abi and address.
+
 ### How to run project
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To run the server on localhost run the following command.
 
 ```
-Give the example
+django manage.py runserver
+```
+
+Now, visit below link for visting the site.
+
+```
+http://localhost:8000/home
+```
+
+Below link for viewing map.
+
+```
+http://localhost:8000/map
 ```
