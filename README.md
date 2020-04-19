@@ -15,3 +15,7 @@ network. The details of the drone, captured image details and location will be s
 blockchain to make it more secured. But the maps will be available to the public for
 viewing purposes. We will not be storing the images itself because of the large size and
 for saving storage. Instead we will be storing just the link of that image.
+
+### FLOWCHART
+
+![alt text](https://github.com/SDISON/Decentralized-aerial-mapping/blob/master/README_images/00.png)
