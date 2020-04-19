@@ -19,3 +19,21 @@ for saving storage. Instead we will be storing just the link of that image.
 ### FLOWCHART
 
 ![alt text](https://github.com/SDISON/Decentralized-aerial-mapping/blob/master/README_images/00.png)
+
+### Prerequisites
+
+Django and PILLOW are required which are there in requirements so just run that only.Install everything using requirements and use virtual environment as its a good habit.
+
+```
+pip install -r requirements.txt
+```
+
+### How to run project
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
