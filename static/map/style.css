@@ -1,0 +1,33 @@
+.btn {
+  width: 30px;
+  height: 30px;
+  background: #FFF;
+  border: 1px solid #005bac;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #005bac;
+  padding: 15px 10px 5px;
+  position: fixed;
+  text-align: center;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+	transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #eef;
+}
+
+.zoom {
+  right: 190px;
+}
+
+.zoom-out {
+  right: 120px;
+}
+.zoom-init {
+  right: 50px;
+}

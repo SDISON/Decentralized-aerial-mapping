@@ -3,7 +3,6 @@
 <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.2.0/dist/web3.min.js"></script>
 <script  src="{%static 'main.js'%}"></script>
 <script>
-var account = "{{account}}";
 var id = parseInt("{{id}}");
 var file = "{{file}}";
 </script>
@@ -12,7 +11,7 @@ var file = "{{file}}";
 <main role="main">
   <!-- An unordered list is completely useless here, -->
   <!-- but I like to use it for repeating elements.-->
-  <ul role="progressbar" aria-busy="true" aria-label="Loading domino shop">
+  <ul id="list" role="progressbar" aria-busy="true" aria-label="Loading domino shop">
     <li role="presentation"></li>
     <li role="presentation"></li>
     <li role="presentation"></li>
@@ -21,7 +20,7 @@ var file = "{{file}}";
     <li role="presentation"></li>
     <li role="presentation"></li>
   </ul>
-  <i class="remove">Uploading data.</i>
+  <i class="change">Uploading data.</i>
 </main>
 
 

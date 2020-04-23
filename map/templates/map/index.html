@@ -1,17 +1,41 @@
 {% load static %}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<link rel="stylesheet" href="{%static 'map/style.css'%}">
 <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.2.0/dist/web3.min.js"></script>
+<script>
+		var zoom = 1;
+		
+		$('.zoom').on('click', function(){
+			zoom += 0.1;
+			$('.target').css('zoom', zoom);
+		});
+		$('.zoom-init').on('click', function(){
+			zoom = 1;
+			$('.target').css('zoom', zoom);
+		});
+		$('.zoom-out').on('click', function(){
+			zoom -= 0.1;
+			$('.target').css('zoom', zoom);
+		});
+</script>
 <script  src="{%static 'main.js'%}"></script>
 <script  src="{%static 'map/script.js'%}"></script>
 <html lang="en">
 <style>
 #table-scroll{
+	margin-top: 20px;
 	width:100%;
-	height:98%;
+	height:95%;
   	overflow:auto;  
-  	margin-top:20px;
+}
+body{
+	overflow: hidden;
 }
 </style>
 <body>
+<a class="btn zoom"><i class="fas fa-search-plus"></i></a>
+<a class="btn zoom-out"><i class="fas fa-search-minus"></i></a>
+<a class="btn zoom-init"><i class="fas fa-recycle"></i></a>
 <div id="table-scroll">
 <table style="width:73px; padding: 0; border-spacing: none;" cellspacing="0" cellpadding="0">
 <!-- here goes our data! -->
